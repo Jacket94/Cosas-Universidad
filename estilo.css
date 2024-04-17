@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: century gothic;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.titulo {
+    padding: 20px;
+}
+
+nav ul {
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    list-style-type: none;
+    background-color: #aecee0;
+}
+
+nav li {
+    display: inline-flex;
+}
+
+nav a {
+    padding: 20px;
+    width: 150px;
+}
+
+nav ul a:hover {
+    background-color: white;
+}
+
+.contenido {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.contenido .articulo {
+    width: 70%; /* Cambiamos el ancho para dejar espacio al elemento secundario */
+    margin-right: 20px; /* Añadimos un margen a la derecha para separarlo del elemento secundario */
+}
+
+.contenido .articulo div {
+    width: 70%;
+    padding: 15px;
+    background-color: #90b5ca;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.contenido .articulo img {
+    width: 200px;
+    border-radius: 15px;
+}
+
+.contenido .secundario {
+    width: 30%; /* Establecemos el ancho del elemento secundario */
+}
+
+.contenido .secundario p {
+    background-color: rgb(130, 224, 169);
+    border-radius: 15px;
+    padding: 20px;
+    height: 700px;
+}
+
+.piedepagina {
+    background-color: rgb(130, 224, 169);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.piedepagina img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+.contenido .articulo p.titulo-mas-vendidos {
+    font-size: 30px;
+}
