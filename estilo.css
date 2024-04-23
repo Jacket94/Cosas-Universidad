@@ -1,4 +1,6 @@
-* {
+* 
+/* DEFINIR LOS PARAMETROS DEL TEXTO DEL CUERPO */
+{
     padding: 0;
     margin: 0;
     font-family: century gothic;
@@ -11,27 +13,10 @@
     padding: 20px;
 }
 
-nav ul {
-    width: 80%;
-    margin: auto;
-    border-radius: 10px;
-    list-style-type: none;
-    background-color: #aecee0;
-}
 
-nav li {
-    display: inline-flex;
-}
 
-nav a {
-    padding: 20px;
-    width: 150px;
-}
 
-nav ul a:hover {
-    background-color: white;
-}
-
+/* PARAMETROS DEL CUERPO*/
 .contenido {
     display: flex;
     width: 80%;
@@ -40,9 +25,10 @@ nav ul a:hover {
 }
 
 .contenido .articulo {
-    width: 70%; /* Cambiamos el ancho para dejar espacio al elemento secundario */
-    margin-right: 20px; /* Añadimos un margen a la derecha para separarlo del elemento secundario */
+    width: 70%; /* DEFINIR LA ANCHURA DE LOS MEDICAMENTOS AQUI */
+    margin-right: 20px;
 }
+
 
 .contenido .articulo div {
     width: 70%;
@@ -52,22 +38,8 @@ nav ul a:hover {
     margin-bottom: 15px;
 }
 
-.contenido .articulo img {
-    width: 200px;
-    border-radius: 15px;
-}
 
-.contenido .secundario {
-    width: 30%; /* Establecemos el ancho del elemento secundario */
-}
-
-.contenido .secundario p {
-    background-color: rgb(130, 224, 169);
-    border-radius: 15px;
-    padding: 20px;
-    height: 700px;
-}
-
+/* PARAMETROS DEL PIE DE PAGINA, COMO FORZAR QUE LA POSICION SIEMPRE SEA ABAJO DE LA PANTALLA */
 .piedepagina {
     background-color: rgb(130, 224, 169);
     padding: 20px;
