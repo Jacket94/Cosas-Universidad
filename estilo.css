@@ -25,13 +25,13 @@
 }
 
 .contenido .articulo {
-    width: 70%; /* DEFINIR LA ANCHURA DE LOS MEDICAMENTOS AQUI */
+    width: 100%; /* DEFINIR LA ANCHURA DE LOS MEDICAMENTOS AQUI */
     margin-right: 20px;
 }
 
 
 .contenido .articulo div {
-    width: 70%;
+    width: 90%;
     padding: 15px;
     background-color: #90b5ca;
     border-radius: 15px;
